@@ -48,3 +48,13 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 - Org settings URL: https://www.npmjs.com/settings/cubing/packages
 - 2FA enforcement for members: No (TODO)
 - Admins: `@lgarron` (TODO)
+
+## Conventions
+
+- Makefile conventions: <https://github.com/lgarron/makefile-convention>, particularly: `make dev` and `make build`
+- JS projects:
+  - Language: TypeScript
+  - Bundler: `esbuild`
+  - Formatter: `rome`
+
+Many of these conventions are available in: <https://github.com/lgarron/ts-project-template>
