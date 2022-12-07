@@ -23,3 +23,20 @@ Infrastructure info for `cubing.net` / `cubing.org` / `github.com/cubing` projec
 | [`alpha.twizzle.net`](https://alpha.twizzle.net/)       | NC            | DH  | DH       | [`cubing/cubing.js`](https://github.com/cubing/cubing.js)                     | [`rsync`](https://github.com/lgarron/backup-cubing.js/blob/75a59447c085dbe4275ee0c8ebfb21852a5adb40/script/deploy/twizzle.js) (`cubing_deploy@`)                                                                                                          |
 | [`cubing-org.slack.com`](https://cubing-org.slack.com/) | N/A           | N/A | Slack    | N/A                                                                           | N/A                                                                                                                                                                                                                                                       |
 
+## Organizations
+
+### GitHub
+
+- URL: https://github.com/cubing
+- Org settings URL: https://github.com/organizations/cubing/settings/profile
+- 2FA enforcement for members: No (TODO)
+- Owners: `@lgarron`, `@jfly`
+
+Certain repos have elevated privileges for maintainers. (TODO: document these.)
+
+### `npm`
+
+- URL: https://www.npmjs.com/org/cubing
+- Org settings URL: https://www.npmjs.com/settings/cubing/packages
+- 2FA enforcement for members: No (TODO)
+- Admins: `@lgarron` (TODO)
