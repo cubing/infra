@@ -10,6 +10,7 @@ Infrastructure info for `cubing.net` / `cubing.org` / `github.com/cubing` projec
 - GH — GitHub (under [`github.com/cubing`](https://github.com/cubing))
 - SW — offline support through service worker
 
+[^1]: Currently `@lgarron`'s personal account.
 ## Sites
 
 | Site                                                    | Regis-tration | DNS | Served   | Repo                                                                          | Deployment                                                                                                                                                                                                                                                |
@@ -22,4 +23,3 @@ Infrastructure info for `cubing.net` / `cubing.org` / `github.com/cubing` projec
 | [`alpha.twizzle.net`](https://alpha.twizzle.net/)       | NC            | DH  | DH       | [`cubing/cubing.js`](https://github.com/cubing/cubing.js)                     | [`rsync`](https://github.com/lgarron/backup-cubing.js/blob/75a59447c085dbe4275ee0c8ebfb21852a5adb40/script/deploy/twizzle.js) (`cubing_deploy@`)                                                                                                          |
 | [`cubing-org.slack.com`](https://cubing-org.slack.com/) | N/A           | N/A | Slack    | N/A                                                                           | N/A                                                                                                                                                                                                                                                       |
 
-[^1]: Currently `@lgarron`'s personal account.
