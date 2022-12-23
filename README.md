@@ -1,6 +1,10 @@
 # Cubing infra
 
-Infrastructure info for `cubing.net` / `cubing.org` / `github.com/cubing` projects.
+Infrastructure info for projects associated with the following:
+
+- [`github.com/cubing`](https://github.com/cubing)
+- [`cubing.net`](https://www.cubing.net/)
+- [`cubing.org` ](https://cubing.org/)
 
 ## Key
 
