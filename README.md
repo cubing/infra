@@ -32,7 +32,7 @@ Infrastructure info for projects associated with the following:
 | [`archive.cubing.net`](https://archive.cubing.net/) | NC | DH | GH Pages | [`cubing/archive.cubing.net`](https://github.com/cubing/archive.cubing.net) | N/A | In-tree root folder |
 | [`standards.cubing.net`](https://standards.cubing.net/) | NC | DH | GH Pages | [`cubing/standards`](https://github.com/cubing/standards) | N/A | In-tree root folder |
 | [`qqtimer.net`](https://qqtimer.net/) | NC | DH | GH Pages | [`cubing/qqTimer`](https://github.com/cubing/qqTimer) | N/A | In-tree [`docs` folder](https://github.com/cubing/qqTimer/tree/main/docs) |
-| [`cubing.org`](https://cubing.org/) | NC | DH | GH Pages | [`cubing/cubing.org`](https://github.com/cubing/cubing.org) | N/A | In-tree root folder |
+| [`cubing.org`](https://cubing.org/) | NC | NC | GH Pages | [`cubing/cubing.org`](https://github.com/cubing/cubing.org) | N/A | In-tree root folder |
 | [`cubing-org.slack.com`](https://cubing-org.slack.com/) | N/A           | N/A    | Slack                                                                                                                            | N/A                                                                           | N/A                                                                                                                                 | N/A                                                                                                                                                                                                                                                       |
 
 [^2]: Used by: <https://twizzle.net/stream>
