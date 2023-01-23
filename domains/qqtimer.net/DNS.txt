@@ -1,0 +1,7 @@
+TXT
+_github-pages-challenge-cubing
+81970dfcc0d825477e293bd986e69c
+
+CNAME
+@
+cubing.github.io
