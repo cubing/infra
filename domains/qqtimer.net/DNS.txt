@@ -5,3 +5,7 @@ _github-pages-challenge-cubing
 CNAME
 @
 cubing.github.io
+
+CNAME
+www
+cubing.github.io
