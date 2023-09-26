@@ -66,6 +66,7 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
   - MIT: for projects with permissive usage.
   - GPL: Do not use for new projects. Use the MPL instead.
 - Makefile conventions: <https://github.com/lgarron/Makefile-convention>, particularly: `make dev` and `make build`
+- Add a `CI.yml` GitHub Actions workflow to build and run any tests. Do not not use any secrets in testing.
 - JS projects:
   - Language: TypeScript
   - Bundler: `esbuild`
