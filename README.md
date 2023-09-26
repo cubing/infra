@@ -60,7 +60,7 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 
 ## Conventions
 
-- We generally publishe code under one of the following licenses:
+- We generally publish code under one of the following licenses:
   - Dedicate to the public domain using the [Unliense](https://unlicense.org/).
   - MPL: for projects we want to encourage open collaboration for.
   - MIT: for projects with permissive usage.
