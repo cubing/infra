@@ -69,6 +69,6 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 - JS projects:
   - Language: TypeScript
   - Bundler: `esbuild`
-  - Formatter: `rome`
+  - Formatter: `biome`
 
 Many of these conventions are available in: <https://github.com/lgarron/ts-project-template>
