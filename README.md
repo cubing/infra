@@ -4,7 +4,7 @@ Infrastructure info for projects associated with the following:
 
 - [`github.com/cubing`](https://github.com/cubing)
 - [`cubing.net`](https://www.cubing.net/)
-- [`cubing.org` ](https://cubing.org/)
+- [`cubing.org`](https://cubing.org/)
 
 ## Key
 
@@ -45,8 +45,8 @@ Infrastructure info for projects associated with the following:
 
 ### GitHub
 
-- URL: https://github.com/cubing
-- Org settings URL: https://github.com/organizations/cubing/settings/profile
+- URL: <https://github.com/cubing>
+- Org settings URL: <https://github.com/organizations/cubing/settings/profile>
 - 2FA enforcement for members: No (TODO)
 - Owners: `@lgarron`, `@jfly`
 
@@ -54,8 +54,8 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 
 ### `npm`
 
-- URL: https://www.npmjs.com/org/cubing
-- Org settings URL: https://www.npmjs.com/settings/cubing/packages
+- URL: <https://www.npmjs.com/org/cubing>
+- Org settings URL: <https://www.npmjs.com/settings/cubing/packages>
 - 2FA enforcement for members: No (TODO)
 - Owner: `@lgarron`
 - Admin: `@jfly`
@@ -69,7 +69,7 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 ## Conventions
 
 - We generally publish code under one of the following licenses:
-  - Dedicate to the public domain using the [Unliense](https://unlicense.org/).
+  - Dedicate to the public domain using the [Unlicense](https://unlicense.org/).
   - MPL: for projects we want to encourage open collaboration for.
   - MIT: for projects with permissive usage.
   - GPL: Do not use for new projects. Use the MPL instead.
