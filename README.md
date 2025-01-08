@@ -57,7 +57,14 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 - URL: https://www.npmjs.com/org/cubing
 - Org settings URL: https://www.npmjs.com/settings/cubing/packages
 - 2FA enforcement for members: No (TODO)
-- Admins: `@lgarron` (TODO)
+- Owner: `@lgarron`
+- Admin: `@jfly`
+
+### `healthchecks.io`
+
+- URL: (redacted)
+- Owner: `@lgarron`
+- Admin: `@jfly`
 
 ## Conventions
 
