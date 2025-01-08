@@ -74,10 +74,14 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
   - MIT: for projects with permissive usage.
   - GPL: Do not use for new projects. Use the MPL instead.
 - Makefile conventions: <https://github.com/lgarron/Makefile-convention>, particularly: `make dev` and `make build`
-- Add a `CI.yml` GitHub Actions workflow to build and run any tests. Do not not use any secrets in testing.
+- Add a `CI.yaml` GitHub Actions workflow with the following jobs when relevant. Do not use secrets for any workflows in this file.
+  - `build`
+  - `test`
 - JS projects:
   - Language: TypeScript
   - Bundler: `esbuild`
   - Formatter: `biome`
+- Rust:
+  - When a nightly toolchain is needed (e.g. for the `portable_simd` feature), use `nightly-2025-10-01` for now. ([Examples](https://github.com/search?q=org%3Acubing+nightly-2025-10-01&type=code))
 
 Many of these conventions are available in: <https://github.com/lgarron/ts-project-template>
