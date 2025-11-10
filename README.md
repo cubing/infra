@@ -74,6 +74,11 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
   - MIT: for projects with permissive usage.
   - GPL: Do not use for new projects. Use the MPL instead.
 - Makefile conventions: <https://github.com/lgarron/Makefile-convention>, particularly: `make dev` and `make build`
+- Files with a `.json` extension must contain valid JSON.
+  - If using JSON5 or JSONC:
+    - Prefer JSON5 ([which has a spec](https://spec.json5.org/)) over JSONC (an ad-hoc format that [Microsoft refuses to standardize](https://github.com/microsoft/vscode/issues/100688#issuecomment-2915925064) and which even Microsoft's tools parse and validate inconsistently).
+    - Always use `.json5` or `.jsonc` file extensions. (Example: [`biome.jsonc`](https://github.com/lgarron/repo/blob/4dc160c59dae6cbb2740641dcecbfd99aa6296d9/biome.jsonc))
+      - If a tool requires a use of a `.json` file extension (e.g. [TypeScript](https://github.com/microsoft/TypeScript/issues/43121)) and the file contents are not valid JSON, move the file to an adjacent `.jsonc` or `.json5` and symlink or reference the `.json` file path. (Example: [`tsconfig.json` → `tsconfig.jsonc`](https://github.com/cubing/cubing.js/blob/e5316667cba721cd275744270b030fddf0804eec/tsconfig.json))
 - Add a `CI.yaml` GitHub Actions workflow with the following jobs when relevant. Do not use secrets for any workflows in this file.
   - `build`
   - `test`
