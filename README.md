@@ -70,6 +70,14 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 - Owner: `@lgarron`
 - Admin: `@jfly`
 
+### Codeberg
+
+- URL: <https://codeberg.org/cubing>
+- Org settings URL: [text](https://codeberg.org/org/cubing/settings)
+- Owner: `@lgarron`
+
+Codeberg is an non-profit alternative to GitHub with a [principled mission](https://docs.codeberg.org/getting-started/what-is-codeberg/) that pushes back against what many see as hostile practices by GitHub. Projects may migrate there over time to avoid reliance on GitHub.
+
 ## Conventions
 
 - We generally publish code under one of the following licenses:
