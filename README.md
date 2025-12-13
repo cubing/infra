@@ -68,7 +68,7 @@ Certain repos have elevated privileges for maintainers. (TODO: document these.)
 
 - URL: (redacted)
 - Owner: `@lgarron`
-- Admin: `@jfly`
+- Manager: `@jfly`
 
 ### Codeberg
 
