@@ -47,10 +47,14 @@ Infrastructure info for projects associated with the following:
 
 - URL: <https://github.com/cubing>
 - Org settings URL: <https://github.com/organizations/cubing/settings/profile>
-- 2FA enforcement for members: No (TODO)
+- 2FA enforcement for members:
+  - Require two-factor authentication
+    - Only allow secure two-factor methods
 - Owners: `@lgarron`, `@jfly`
 
 Certain repos have elevated privileges for maintainers. (TODO: document these.)
+
+"Require two-factor authentication" and "Only allow secure two-factor methods" are enabled. This still leaves a lot of authentication options, and prevents a large class of potential risks. (Note that `@lgarron` worked on authentication at GitHub, and is very familiar with the security model, implementation, and tradeoffs.)
 
 ### `npm`
 
