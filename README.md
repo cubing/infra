@@ -99,6 +99,6 @@ Codeberg is an non-profit alternative to GitHub with a [principled mission](http
   - Bundler: `esbuild`
   - Formatter: `biome`
 - Rust:
-  - When a nightly toolchain is needed (e.g. for the `portable_simd` feature), use `nightly-2025-12-01` for now. ([Examples](https://github.com/search?q=org%3Acubing+nightly-2025-10-01&type=code))
+  - When a nightly toolchain is needed (e.g. for the `portable_simd` feature), use `nightly-2026-02-01` for now. ([Examples](https://github.com/search?q=org%3Acubing+nightly-2025-10-01&type=code))
 
 Many of these conventions are available in: <https://github.com/lgarron/ts-project-template>
